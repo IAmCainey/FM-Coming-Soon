@@ -1,39 +1,30 @@
 <template>
-  <section class="wrapper">
-    <div class="container">
-      <div class="content">
-        <img class="logo" src="../assets/images/logo.svg" alt="Base Apparel">
+  <section>
 
-        <div class="banner"></div>
+    <!-- Banner -->
+    <div class="logo"></div>
 
-        <h1>
-          We're <br>
-          <span class="second__h1">coming
-            <br>soon</span>
-        </h1>
+    <!-- Content -->
+    <div class="content">
 
-        <p>
-          Hello fellow shoppers! We're currently building our new <br>
-          fashion store. Add your email below to stay up-to-date with <br>
-          announcements and our launch deals.
-        </p>
+      <div class="banner"></div>
 
-        <form action="">
-          <input type="email" placeholder="Email Adress" name="email" required>
-          <button class="btn">
-            <img src="../assets/images/icon-arrow.svg" alt="">
-          </button>
-        </form>
+      <h1>we're
+        <span>coming soon</span>
+      </h1>
 
-        <p class="attribution">
-          Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
-          Coded by <a href="https://paulcaine.co.uk">Paul Caine</a>.
-        </p>
+      <p>
+        Hello fellow shoppers! We're currently building our new
+        fashion store. Add your email below to stay up-to-date with
+        announcements and our launch deals.
+      </p>
 
-      </div>
-
-      <div class="hero"></div>
+      <!-- Email Form -->
+      <form action="">
+        <input type="email">
+      </form>
 
     </div>
+
   </section>
 </template>
