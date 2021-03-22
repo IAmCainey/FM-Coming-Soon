@@ -129,11 +129,20 @@ form {
     width: fit-content;
     // padding for content needs changing
     padding: 0;
+    
   }
 
   .banner {
     width: 100%;
-    hight
+    height: 376px;
+    background-image: url(../../assets/images/hero-mobile.jpg);
+    background-repeat: no-repeat;
+    background-position: left top;
+    background-size: contain;
+  }
+
+  .logo {
+    padding: 31px 0 32.11px 32px;
   }
 }
 
