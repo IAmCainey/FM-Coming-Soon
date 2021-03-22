@@ -2,7 +2,9 @@
   <section class="wrapper">
     <div class="container">
       <div class="content">
-        <img src="../assets/images/logo.svg" alt="Base Apparel">
+        <img class="logo" src="../assets/images/logo.svg" alt="Base Apparel">
+
+        <div class="banner"></div>
 
         <h1>
           We're <br>

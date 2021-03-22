@@ -117,6 +117,26 @@ form {
   }
 }
 
+// Mobile Layout
+
+@media (max-width: 600px) {
+  .container {
+    flex-direction: column;
+  }
+
+  .content {
+    flex: auto;
+    width: fit-content;
+    // padding for content needs changing
+    padding: 0;
+  }
+
+  .banner {
+    width: 100%;
+    hight
+  }
+}
+
 // Frontend Mentor Footer
 .attribution {
   font-size: 11px;
