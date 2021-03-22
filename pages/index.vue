@@ -23,10 +23,10 @@
           </button>
         </form>
 
-          <p class="attribution">
-            Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
-            Coded by <a href="https://paulcaine.co.uk">Paul Caine</a>.
-          </p>
+        <p class="attribution">
+          Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+          Coded by <a href="https://paulcaine.co.uk">Paul Caine</a>.
+        </p>
 
       </div>
 

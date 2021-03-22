@@ -82,6 +82,7 @@ form {
     mix-blend-mode: normal;
     opacity: 0.5;
     box-sizing: border-box;
+    color: #423A3A;
 
     &:focus {
       outline: none;
@@ -100,9 +101,15 @@ form {
   border-radius: 28px;
   border: solid 1px $pink;
   box-shadow: 0px 15px 20px rgba(198, 110, 110, 0.247569);
-  background: linear-gradient(107.41deg, #F8BFBF -26.13%, #EE8B8B 73.87% );
+  background: linear-gradient(107.41deg, #F8BFBF -26.13%, #EE8B8B 73.87%);
   position: relative;
   left: -100px;
+  cursor: pointer;
+
+  &:hover {
+    background: linear-gradient(135deg, #F8BFBF 0%, #EE8B8B 100%);
+    box-shadow: 0px 15px 20px rgba(198, 110, 110, 0.247569);
+  }
 
   img {
     height: 17.67px;
